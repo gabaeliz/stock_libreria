@@ -1,0 +1,23 @@
+{
+  "name": "stock_libreria",
+  "version": "1.0.0",
+  "description": "Creación del stock de libros que venden en una librería localizada en la Ciudad de México",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "JavaScript",
+    "CRUD"
+  ],
+  "author": "Elizabeth Garcia Baeza",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
