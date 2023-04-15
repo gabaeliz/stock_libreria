@@ -4,7 +4,7 @@
   "description": "Creación del stock de libros que venden en una librería localizada en la Ciudad de México",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon src /index.js"
   },
   "keywords": [
     "NodeJS",
