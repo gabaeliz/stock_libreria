@@ -1,8 +1,13 @@
-const { PORT } = require('./config/config');
+const { PORT } = require("./config/config");
+const { db } = require("./config/database");
 const express = require("express");
+
+
 const server = express();
 
-
-server.listen(PORT, () => {
-    console.log(`The server is listening on port ${PORT}`);
+db.authenticate().then(() => {
+    console.log("Database connected");
+    server.listen(PORT, () => {
+        console.log(`The server is running on port ${PORT}`);
+    });
 });
